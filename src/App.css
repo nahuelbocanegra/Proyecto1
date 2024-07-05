@@ -1,0 +1,25 @@
+@import url("./styles/componentsCss/NavMenu.css");
+@import url("./styles/componentsCss/AppFooter.css");
+@import url("./styles/pagesCss/Inicio.css");
+
+
+  :root {
+    --color-fondo-principal: #FFFFFF;
+    --color-fondo-secundario: #F5F5F5;
+    --color-borde: #E0E0E0;
+    --color-primario: #66CCCC;
+    --color-secundario: #66CCFF;
+    --color-destacado: #FFA726;
+    --color-error: #E74C3C;
+    --color-exito: #66FF66;
+    --color-texto-principal: #333333;
+    --color-texto-secundario: #666666;
+  }
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
