@@ -1,24 +1,18 @@
+import img from '../js/img.js'
+
 function Perfil(){
 
     return(
          
-        <header>
-                <div>
-                    <img src="" alt="" />
+        <main className='perfil'>
+                <div className='perfil-content'>
+                    <img className='perfil-img' src={img[1]} alt="" />
                     <div>
                         <h2>Bocanegra Pablo Nahuel</h2>
-                        <h5>usuario</h5>
                     </div>
                 </div>
-           
-                <ul>
-                    <li>hola</li>
-                    <li>hola</li>
-                    <li>hola</li>
-                    <li>hola</li>
-                    
-                </ul>            
-        </header>
+                 
+        </main>
     
     )
 

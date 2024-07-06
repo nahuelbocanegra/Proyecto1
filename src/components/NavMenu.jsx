@@ -1,6 +1,7 @@
 
 import {BrowserRouter as Router, Route , Routes, Link} from 'react-router-dom'
 
+import Login from '../pages/Login'
 import Inicio from '../pages/Inicio';
 import Ademas from '../pages/Ademas';
 import Perfil from '../pages/Perfil';
@@ -18,9 +19,9 @@ function NavMenu(){
           
                 <nav>
                     <div className='nav-mini-perfil'>
-                        <img className='nav-img-pefil' src={arrayImg[1]} alt="" />
-                        <Link to={'/perfil'}> 
-                             <p>Pablo Bocanegra</p>
+                        <Link className='link-mini-menu' to={'/perfil'}> 
+                            <img className='nav-img-pefil' src={arrayImg[1]} alt="" />
+                            <p>Pablo Bocanegra</p>
                         </Link>
                     </div>
                    
@@ -43,7 +44,10 @@ function NavMenu(){
           
             
             <Routes>    
+                <Route path='/Login' element={<Login></Login>}/>
+                
                 <Route path='/' element={<Inicio></Inicio>}/>
+
                 <Route path='/ademas' element={<Ademas></Ademas>}/>
                 <Route path='/perfil' element={<Perfil></Perfil>}/>
                 <Route path='/nota/:id' element={<Notas></Notas>}/>

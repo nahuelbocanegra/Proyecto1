@@ -34,9 +34,24 @@ nav ul{
     border-radius: 10px;
     /*border: 1px solid black;*/
     display: flex;
-    align-items: center;
-    justify-content: space-around;
     flex-direction: row;
+    justify-content:center;
+    align-items: center;
+ 
+
+}
+.link-mini-menu{
+    display: flex;
+    flex-direction: row;
+  
+    align-items: center;
+    gap: 10px;
+}
+.nav-mini-perfil a{
+    text-decoration: none;
+    color: var(--color-texto-principal);
+    font-size: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
 .nav-img-pefil{

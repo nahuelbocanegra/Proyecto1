@@ -1,6 +1,7 @@
 @import url("./styles/componentsCss/NavMenu.css");
 @import url("./styles/componentsCss/AppFooter.css");
 @import url("./styles/pagesCss/Inicio.css");
+@import url('./styles/pagesCss/Perfil.css');
 
 
   :root {
