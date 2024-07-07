@@ -8,10 +8,14 @@ export default function Notas(){
     let nota= notas.find((nota)=> nota.id === nuevoId)      
 
     return(
-        <div>
+        <div className="contenedor-nota w-full">
             <Link to={"/"}>Inicio</Link>
-            <h4>{nota.titulo}</h4>
-            <p>{nota.contenido}</p>
+            <div className="nota">
+                <h4>{nota.titulo}</h4>
+                
+                <p>{nota.contenido}</p>
+
+            </div>
         </div>
     )
 };

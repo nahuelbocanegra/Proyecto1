@@ -2,6 +2,9 @@
 @import url("./styles/componentsCss/AppFooter.css");
 @import url("./styles/pagesCss/Inicio.css");
 @import url('./styles/pagesCss/Perfil.css');
+@import url('./styles/pagesCss/Login.css');
+@import url('./styles/pagesCss/Notas.css');
+
 
 
   :root {

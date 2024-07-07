@@ -1,0 +1,17 @@
+.contenedor-nota{
+    height: calc(100vh - 235px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.nota{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: chartreuse;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
