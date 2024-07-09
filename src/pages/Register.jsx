@@ -5,14 +5,21 @@ function Register (){
         <div>
             <form action="">  
                 <div>
-                    <label htmlFor="">nombre</label>
-                    <input type="text" /></div>
+                    <label htmlFor="">Nombre</label>
+                    <input type="text" placeholder="" />
+                </div>
                 <div>
-                    <label htmlFor="">nombre</label>
-                    <input type="text" /></div>
+                    <label htmlFor="">Apellido</label>
+                    <input type="text" placeholder="" />
+                </div>
                 <div>
-                    <label htmlFor="">nombre</label>
-                    <input type="text" /></div>
+                    <label htmlFor="">Email</label>
+                    <input type="text" placeholder="" />
+                </div>
+                <div>
+                    <label htmlFor="">Contraseña</label>
+                    <input type="text" placeholder="" />
+                </div>
             </form>
         </div>
     )

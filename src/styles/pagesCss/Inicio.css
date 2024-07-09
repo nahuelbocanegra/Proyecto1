@@ -69,3 +69,7 @@
     font-size: 1.5rem;
 
 }
+.delete {
+    cursor: pointer;
+    color: brown;
+}

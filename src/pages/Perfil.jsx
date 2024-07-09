@@ -6,7 +6,7 @@ function Perfil(){
          
         <main className='perfil'>
                 <div className='perfil-content'>
-                    <img className='perfil-img' src={img[1]} alt="" />
+                    <img className='perfil-img' src={img[4]} alt="" />
                     <div>
                         <h2 className='text-3xl text-center'>Bocanegra Pablo Nahuel</h2>
                     </div>

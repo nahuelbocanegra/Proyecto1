@@ -21,7 +21,7 @@ function NavMenu(){
                 <nav>
                     <div className='nav-mini-perfil'>
                         <Link className='link-mini-menu' to={'/perfil'}> 
-                            <img className='nav-img-pefil' src={arrayImg[1]} alt="" />
+                            <img className='nav-img-pefil' src={arrayImg[4]} alt="" />
                             <p>Pablo Bocanegra</p>
                         </Link>
                     </div>

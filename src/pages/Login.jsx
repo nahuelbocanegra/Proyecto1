@@ -5,12 +5,12 @@ function Login(){
         <div className="Login">
             <form action="form" className="form">
                 <div className="cont-input-login">
-                    <label htmlFor="">Contraseña</label>
-                    <input type="text" />
+                    <label htmlFor="">Email</label>
+                    <input type="text"  placeholder="Email"/>
                 </div>
                 <div className="cont-input-login">
-                    <label htmlFor="">Email</label>
-                    <input type="text" />
+                    <label htmlFor="">Contraseña</label>
+                    <input type="text" placeholder="Contraseña" />
                 </div>
                 <div className="cont-input-login">
                     <button className="btn-form-login">Ingresar</button>

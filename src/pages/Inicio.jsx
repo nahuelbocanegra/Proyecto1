@@ -2,6 +2,11 @@ import notas from '../js/notas'
 import {BrowserRouter as Router, Route , Routes, Link} from 'react-router-dom'
 function Inicio(){
 
+    const deleteNota =(id)=>{
+            notas.map(()=>{
+                notas.splice(id,1)
+            })
+    }
 
 
     return(
@@ -17,6 +22,7 @@ function Inicio(){
                                 <Link className='nota-Link flexbox' to={`/nota/${nota.id}`}>
                                     <div className='box-Link'><i className='bx bx-chevron-right'></i></div>
                                 </Link>
+                                <span className='delete' onClick={()=>{deleteNota(nota.id)}}><i className='bx bx-trash'></i></span>
                             </li>)
                         })
                     }
