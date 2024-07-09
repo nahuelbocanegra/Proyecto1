@@ -1,18 +1,22 @@
+import { Link } from "react-router-dom"
+
 function Login(){
     return (
-        <div className="Login bg-slate-500">
-            <form action="form">
-                <label htmlFor=""></label>
-                <input type="text" />
-                <label htmlFor=""></label>
-                <input type="text" />
-                <label htmlFor=""></label>
-                <input type="text" />
-                <button>Enviar</button>
+        <div className="Login">
+            <form action="form" className="form">
+                <div className="cont-input-login">
+                    <label htmlFor="">Contraseña</label>
+                    <input type="text" />
+                </div>
+                <div className="cont-input-login">
+                    <label htmlFor="">Email</label>
+                    <input type="text" />
+                </div>
+                <div className="cont-input-login">
+                    <button className="btn-form-login">Ingresar</button>
+                    <Link to={"/register"}>nuevo usuario</Link>
+                </div>
             </form>
-            <div className="bg-black w-10 h-6">
-                <a  href="#">nuevo usuario</a>
-            </div>
         </div>
     )
 }

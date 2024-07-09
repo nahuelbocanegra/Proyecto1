@@ -1,15 +1,34 @@
 .contenedor-nota{
-    height: calc(100vh - 235px);
+    height: calc(100vh - 215px);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    position: relative;
+    
+}
+.nota-link-inicio{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: var(--color-fondo-secundario);
+    top: 10px;
+    left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: white;
+}
+.nota-link-inicio i {
+    color: var(--color-texto-principal);
 }
 .nota{
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     border-radius: 10px;
-    background-color: chartreuse;
+    background-color: var(--color-fondo-secundario);
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;

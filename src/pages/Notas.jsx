@@ -9,7 +9,7 @@ export default function Notas(){
 
     return(
         <div className="contenedor-nota w-full">
-            <Link to={"/"}>Inicio</Link>
+            <Link className="nota-link-inicio" to={"/"}><i className='bx bx-chevron-left'></i></Link>
             <div className="nota">
                 <h4>{nota.titulo}</h4>
                 
