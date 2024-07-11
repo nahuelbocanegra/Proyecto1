@@ -2,16 +2,26 @@ function Ademas(){
 
     return(
          
-        <header>
-           
-                <ul>
-                    <li>Ademas</li>
-                    <li>Ademas</li>
-                    <li>Ademas</li>
-                </ul>
-            
-        </header>
-    
+        <div className="register-contenedor-form">
+        <form className="form-register" action="">  
+            <div>
+                <label htmlFor="">Nombre</label>
+                <input type="text" placeholder="" />
+            </div>
+            <div>
+                <label htmlFor="">Apellido</label>
+                <input type="text" placeholder="" />
+            </div>
+            <div>
+                <label htmlFor="">Email</label>
+                <input type="text" placeholder="" />
+            </div>
+            <div>
+                <label htmlFor="">Contraseña</label>
+                <input type="text" placeholder="" />
+            </div>
+        </form>
+    </div>
     )
 
 }

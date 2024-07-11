@@ -4,7 +4,8 @@
 @import url('./styles/pagesCss/Perfil.css');
 @import url('./styles/pagesCss/Login.css');
 @import url('./styles/pagesCss/Notas.css');
-
+@import url('./styles/pagesCss/AddNotas.css');
+@import url('./styles/pagesCss/Register.css');
 
 
   :root {

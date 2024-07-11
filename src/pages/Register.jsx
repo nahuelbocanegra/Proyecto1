@@ -1,9 +1,9 @@
 
-
 function Register (){
-    return (
-        <div>
-            <form action="">  
+    
+return (
+        <div className="register-contenedor-form">
+            <form className="form-register" action="">  
                 <div>
                     <label htmlFor="">Nombre</label>
                     <input type="text" placeholder="" />
