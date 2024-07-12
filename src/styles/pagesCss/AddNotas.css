@@ -1,17 +1,24 @@
 .form-addNotas{
-    justify-content: center;
+    justify-content: start;
     height: 100%;
     background-color: var(--color-fondo-secundario);
     border-radius: 10px;   
-    gap: 10px;  
-    padding: 15px;
+    gap: 15px;  
+    padding: 10px;
 }
 .form-addNotas input{
     padding: 5px;
     border-radius: 5px;
 }
 .form-addNotas textarea{
-    height: 200px;
+    height: 110px;
+    width: 100%;
     padding: 5px;
     border-radius: 5px;
+}
+.form-addNotas button{
+    width: 100%;
+    border-radius: 10px;
+    height: 35px;
+    background-color: chartreuse;
 }

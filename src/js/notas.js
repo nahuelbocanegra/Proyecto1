@@ -79,7 +79,85 @@ let notas=[
         titulo:"tarea",
         contenido:"tarea 5",
     },
+    {
+
+        id:16,
+        titulo:"tarea",
+        contenido:"tarea 1",
+    },
+    {
+        id:17,
+        titulo:"tarea",
+        contenido:"tarea 2"
+    },
+    {
+        id:18,
+        titulo:"tarea",
+        contenido:"tarea 3",
+    },
+    {
+        id:19,
+        titulo:"tarea",
+        contenido:"tarea 4",
+    },
+    {
+        id:20,
+        titulo:"tarea",
+        contenido:"tarea 5",
+    },
+    {
+
+        id:21,
+        titulo:"tarea",
+        contenido:"tarea 1",
+    },
+    {
+        id:22,
+        titulo:"tarea",
+        contenido:"tarea 2"
+    },
+    {
+        id:23,
+        titulo:"tarea",
+        contenido:"tarea 3",
+    },
+    {
+        id:24,
+        titulo:"tarea",
+        contenido:"tarea 4",
+    },
+    {
+        id:25,
+        titulo:"tarea",
+        contenido:"tarea 5",
+    },
     
+    {
+
+        id:26,
+        titulo:"tarea",
+        contenido:"tarea 1",
+    },
+    {
+        id:27,
+        titulo:"tarea",
+        contenido:"tarea 2"
+    },
+    {
+        id:28,
+        titulo:"tarea",
+        contenido:"tarea 3",
+    },
+    {
+        id:29,
+        titulo:"tarea",
+        contenido:"tarea 4",
+    },
+    {
+        id:30,
+        titulo:"tarea",
+        contenido:"tarea 5",
+    },
     
 ]
 

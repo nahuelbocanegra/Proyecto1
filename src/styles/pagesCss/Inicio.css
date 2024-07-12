@@ -1,8 +1,8 @@
 .main-inicio{
  width: 100%;
- height: calc(100vh - 175px) ;
+ height: min-content ;
  padding: 10px;
- overflow-y: scroll;
+ 
  color: var(--color-texto-principal);
 }
 .ul-notas{
@@ -16,7 +16,7 @@
 .li-nota{
     background-color: var(--color-fondo-secundario);
     max-width: 150px;
-    height: 50px;
+    height: 100px;
     border-radius: 5px;
    flex-direction: row;
     gap: 10px;
@@ -29,24 +29,7 @@
     font-size: 1.1rem;
     font-weight: 600;
 }
-/*
-.nota-Link{
-    text-decoration: none;
-    
-    gap: 10px;
-}
-.box-titulo-link{
-    flex-direction: row;
-}
-.nota-Link p{
-    color:#8ea68f;
-    
-}
-.li-nota i {
-    font-size: 1.5rem;
-    
-}
-*/
+
 .li-nota{
     position:relative
 }
